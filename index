@@ -1,0 +1,225 @@
+<! DOCTYPE html >
+< html  lang = " en " >
+    < đầu >
+        < meta  charset = " utf-8 " />
+        < meta  name = " viewport " content = " width = device-width, initial-scale = 1, co-to-fit = no " />
+        < meta  name = " description " content = "" />
+        < meta  name = " author " content = "" />
+        < title > Tiếp tục - Khởi động Chủ đề Bootstrap </ title >
+        < link  rel = " icon " type = " image / x-icon " href = " asset / img / favicon.ico " />
+        <! - Biểu tượng Font Awesome (phiên bản miễn phí) ->
+        < script  src = " https://use.fontawesome.com/releases/v5.15.1/js/all.js " crossorigin = " nặc danh " > </ script >
+        <! - Phông chữ Google ->
+        < link  href = " https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700 " rel = " stylesheet " type = " text / css " />
+        < link  href = " https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i " rel = " stylesheet " type = " text / css " />
+        <! - CSS chủ đề cốt lõi (bao gồm Bootstrap) ->
+        < link  href = " css / styles.css " rel = " stylesheet " />
+    </ head >
+    < body  id = " page-top "
+        <! - Bắt đầu viết mã tại đây ->
+<! - Điều hướng ->
+        < nav  class = " navbar navbar-expand-lg navbar-dark bg-primary fixed-top " id = " sideNav " >
+            < Một  lớp = " navbar-thương hiệu " href =" # trang-top " >
+                < span  class = " d-block d-lg-none " > Đặng Kim Thi </ span >
+                < span  class = " d-none d-lg-block " >
+                    < img  src = " asset / img / profile.jpg " class = " img-liquid img-profile round-circle mx-auto mb-2 " >
+                </ span >
+            </ a >
+            < button  class = " navbar-toggler " type = " button " data-toggle = " sập "
+                    data-target = " #navbarSupportedContent " aria-control = " navbarSupportedContent "
+                    aria-expand = " false " aria-label = " Chuyển đổi điều hướng " >
+                < span  class = " navbar-toggler-icon " > </ span >
+            </ nút >
+            < div  class = " sập navbar-sập " id = " navbarSupportedContent " >
+                < ul  class = " navbar-nav " >
+                    < Li  class = " nav-item " > < một  lớp =" nav-link js-cuộn cò " href =" #about " > Về </ một > </ li >
+                    < Li  class = " nav-item " > < một  lớp =" nav-link js-cuộn cò " href =" #experience " > Kinh nghiệm </ một > </ li >
+                    < Li  class = " nav-item " > < một  lớp =" nav-link js-cuộn cò " href =" #education " > Giáo dục </ một > </ li >
+                    < Li  class = " nav-item " > < một  lớp =" nav-link js-cuộn cò " href =" #skills " > Kỹ năng </ một > </ li >
+                    < Li  class = " nav-item " > < một  lớp =" nav-link js-cuộn cò " href =" #interests " > Sở thích </ một > </ li >
+                    < Li  class = " nav-item " > < một  lớp =" nav-link js-cuộn cò " href =" #awards " > Các giải thưởng </ một > </ li >
+                </ ul >
+            </ div >
+        </ nav >
+
+        < div  class = " container-liquid p-0 " >
+            <! - Giới thiệu ->
+            < section  class = " resume-section " id = " about " >
+                < div  class = " resume-section-content " >
+                    < h1  class = " mb-0 " >
+                        Đặng < span  class = " text-primary " > Kim Thi </ span >
+                    </ h1 >
+                    < div  class = " subheading mb-5 " >
+                        1A Yết Kiêu. Hà nội. (317) 585-8468.
+                        < Một  href = " mailto: ThiDK@email.com " > ThiDK@email.com </ một >
+                    </ div >
+                    < p  class = " lead mb-5 " > Tôi đã có kinh nghiệm trong việc tận dụng các khuôn khổ nhanh nhẹn để cung cấp tóm tắt mạnh mẽ cho các tổng quan cấp cao. Các phương pháp tiếp cận lặp đi lặp lại đối với chiến lược doanh nghiệp thúc đẩy tư duy hợp tác để nâng cao giá trị tổng thể. </ p >
+                    < div  class = " social-icon " >
+                        < Một  href = " # " class =" xã hội-icon " > < i  lớp =" fab fa-linkedin-in " > </ i > </ một >
+                        < Một  href = " # " class =" xã hội-icon " > < i  lớp =" fab fa-github " > </ i > </ một >
+                        < Một  href = " # " class =" xã hội-icon " > < i  lớp =" fab fa-twitter " > </ i > </ một >
+                        < Một  href = " # " class =" xã hội-icon " > < i  lớp =" fab fa-facebook-f " > </ i > </ một >
+                    </ div >
+                </ div >
+            </ phần >
+            < hr  class = " m-0 " >
+            <! - Rút kinh nghiệm ->
+            < section  class = " resume-section " id = " experience " >
+                < div  class = " resume-section-content " >
+                    < h2  class = " mb-5 " > Trải nghiệm </ h2 >
+                    < div  class = " d-flex flex-column flex-md-row justify-content-between mb-5 " >
+                        < div  class = " flex-grow-1 " >
+                            < h3  class = " mb-0 " > Nhà phát triển web cấp cao </ h3 >
+                            < div  class = " subheading " > Giải pháp Intelitec </ div >
+                            < p > Đưa ra các chiến lược sinh tồn đôi bên cùng có lợi để đảm bảo sự thống trị chủ động. Vào cuối ngày, trong tương lai, một điều bình thường mới đã phát triển từ thế hệ X đang trên đường băng hướng tới giải pháp đám mây được sắp xếp hợp lý. Nội dung do người dùng tạo trong thời gian thực có nhiều điểm tiếp xúc để phân phối. </ p >
+                        </ div >
+                        < div  class = " flex-co-0 " > < span  class = " text-primary " > Tháng 3 năm 2013 - Hiện tại </ span > </ div >
+                    </ div >
+
+                    < div  class = " d-flex flex-column flex-md-row justify-content-between mb-5 " >
+                        < div  class = " flex-grow-1 " >
+                            < h3  class = " mb-0 " > Nhà phát triển web </ h3 >
+                            < div  class = " subheading " > Giải pháp Intelitec </ div >
+                            < p > Đưa ra các chiến lược sinh tồn đôi bên cùng có lợi để đảm bảo sự thống trị chủ động. Vào cuối ngày, trong tương lai, một điều bình thường mới đã phát triển từ thế hệ X đang trên đường băng hướng tới giải pháp đám mây được sắp xếp hợp lý. Nội dung do người dùng tạo trong thời gian thực có nhiều điểm tiếp xúc để phân phối. </ p >
+                        </ div >
+                        < div  class = " flex-co-0 " > < span  class = " text-primary " > Tháng 3 năm 2011 - Tháng 3 năm 2013 </ span > </ div >
+                    </ div >
+
+                    < div  class = " d-flex flex-column flex-md-row justify-content-between mb-5 " >
+                        < div  class = " flex-grow-1 " >
+                            < h3  class = " mb-0 " > Nhà phát triển web cho trẻ em </ h3 >
+                            < div  class = " subheading " > Giải pháp Intelitec </ div >
+                            < p > Đưa ra các chiến lược sinh tồn đôi bên cùng có lợi để đảm bảo sự thống trị chủ động. Vào cuối ngày, trong tương lai, một điều bình thường mới đã phát triển từ thế hệ X đang trên đường băng hướng tới giải pháp đám mây được sắp xếp hợp lý. Nội dung do người dùng tạo trong thời gian thực có nhiều điểm tiếp xúc để phân phối. </ p >
+                        </ div >
+                        < div  class = " flex-co-0 " > < span  class = " text-primary " > Tháng 3 năm 2008 - > Tháng 3 năm 2010 </ span > </ div >
+                    </ div >
+
+                    < div  class = " d-flex flex-column flex-md-row justify-content-between mb-5 " >
+                        < div  class = " flex-grow-1 " >
+                            < h3  class = " mb-0 " > Thực tập sinh Thiết kế Web </ h3 >
+                            < div  class = " subheading " > Giải pháp Intelitec </ div >
+                            < p > Đưa ra các chiến lược sinh tồn đôi bên cùng có lợi để đảm bảo sự thống trị chủ động. Vào cuối ngày, trong tương lai, một điều bình thường mới đã phát triển từ thế hệ X đang trên đường băng hướng tới giải pháp đám mây được sắp xếp hợp lý. Nội dung do người dùng tạo trong thời gian thực có nhiều điểm tiếp xúc để phân phối. </ p >
+                        </ div >
+                        < div  class = " flex-co-0 " > < span  class = " text-primary " > Tháng 3 năm 2013 - Hiện tại </ span > </ div >
+                    </ div >
+                </ div >
+            </ phần >
+            < hr  class = " m-0 " >
+            <! - Giáo dục ->
+            < section  class = " resume-section " id = " education " >
+                < div  class = " resume-section-content " >
+                    < h2  class = " mb-5 " > Giáo dục </ h2 >
+                    < div  class = " d-flex flex-column flex-md-row justify-content-between mb-5 " >
+                        < div  class = " flex-grow-1 " >
+                        < h3  class = " mb-0 " > Đại học Colorado Boulder </ h3 >
+                        < div > Cử nhân Khoa học </ div >
+                        < p > Điểm trung bình: 3,23 </ p >
+                        </ div >
+                        < div  class = " flex-co-0 " > Tháng 8 năm 2006 - Tháng 5 năm 2010 </ div >
+                    </ div >
+                    < div  class = " d-flex flex-column flex-md-row justify-content-between mb-5 " >
+                        < div  class = " flex-grow-1 " >
+                            < h3  class = " mb-0 " > Trường trung học Janes Buchanan </ h3 >
+                            < div > Chương trình nam châm công nghệ </ div >
+                            < p > Điểm trung bình: 3,99 </ p >
+                        </ div >
+                        < div  class = " flex-co-0 " > Tháng 8 năm 2002 - tháng 5 năm 2006 </ div >
+                    </ div >
+                </ div >
+            </ phần >
+            < hr  class = " m-0 " >
+            <! - Kỹ năng ->
+            < section  class = " resume-section " id = " skills " >
+                < div  class = " resume-section-content " >
+                    < h2  class = " subheading mb-3 " > Ngôn ngữ & Công cụ Lập trình </ h2 >
+                    < ul >
+                        < li  class = " list-inline-item " > < i  class = " fab fa-html5 " > </ i > </ li >
+                        < li  class = " list-inline-item " > < i  class = " fab fa-css3-alt " > </ i > </ li >
+                        < li  class = " list-inline-item " > < i  class = " fab fa-js-square " > </ i > </ li >
+                        < li  class = " list-inline-item " > < i  class = " fab fa-angle " > </ i > </ li >
+                        < li  class = " list-inline-item " > < i  class = " fab fa-react " > </ i > </ li >
+                        < li  class = " list-inline-item " > < i  class = " fab fa-node-js " > </ i > </ li >
+                        < li  class = " list-inline-item " > < i  class = " fab fa-sass " > </ i > </ li >
+                        < li  class = " list-inline-item " > < i  class = " fab fa-less " > </ i > </ li >
+                        < li  class = " list-inline-item " > < i  class = " fab fa-wordpress " > </ i > </ li >
+                        < li  class = " list-inline-item " > < i  class = " fab fa-gulp " > </ i > </ li >
+                        < li  class = " list-inline-item " > < i  class = " fab fa-grunt " > </ i > </ li >
+                        < li  class = " list-inline-item " > < i  class = " fab fa-npn " > </ i > </ li >
+                    </ ul >
+                    < div  class = " subheading " > Dòng công việc </ div >
+                    < ul  class = " fa-ul mb-0 " >
+                        < li > < span  class = " fa-li " > < i  class = " fas fa-check " > </ i > </ span > Mobile-Firstt, Thiết kế đáp ứng </ li >
+                        < li > < span  class = " fa-li " > < i  class = " fas fa-check " > </ i > </ span > Kiểm tra & gỡ lỗi trình duyệt chéo </ li >
+                        < li > < span  class = " fa-li " > < i  class = " fas fa-check " > </ i > </ span > Nhóm chức năng chéo </ li >
+                        < li > < span  class = " fa-li " > < i  class = " fas fa-check " > </ i > </ span > Phát triển Agile & Scrum </ li >
+                    </ ul >
+                </ div >
+            </ phần >
+            < hr  class = " m-0 " >
+            <! - Sở thích ->
+            < section  class = " resume-section " id = " Interest " >
+                < div  class = " resume-section-content " >
+                    < h2  class = " mb-5 " > Sở thích </ h2 >
+                    < p > Ngoài là một nhà phát triển web, tôi tận hưởng phần lớn thời gian của mình để luyện tập ngoài trời. Vào mùa đông, tôi là một người đam mê trượt băng và mới tập leo băng. Trong những tháng ấm hơn ở Colorado, tôi thích đi xe đạp leo núi, leo núi miễn phí và chèo thuyền kayak. </ p >
+                    < p > Khi bị buộc phải vào cửa, theo dõi một số moview và chương trình truyền hình thuộc thể loại khoa học viễn tưởng và giả tưởng, Tôi là một đầu bếp đầy tham vọng, tôi dành rất nhiều thời gian rảnh để khám phá những tiến bộ công nghệ mới nhất trên web front-end thế giới phát triển. </ p >
+                </ div >
+            </ phần >
+            < hr  class = " m-0 " >
+            <! - Giải thưởng ->
+            < section  class = " resume-section " id = " Prize " >
+                < div  class = " resume-section-content " >
+                    < h2  class = " mb-5 " > Giải thưởng & Chứng nhận </ h2 >
+                    < ul  class = " fa-ul mb-0 " >
+                        < li >
+                            < span  class = " fa-li " > < i  class = " fas fa-cup text-warning " > </ i > </ span >
+                            Nhà phát triển được chứng nhận về Google Analytics
+                        </ li >
+                        < li >
+                            < span  class = " fa-li " > < i  class = " fas fa-cup text-warning " > </ i > </ span >
+                            Chuyên gia web di động - Giấy chứng nhận của Google
+                        </ li >
+                        < li >
+                            < span  class = " fa-li " > < i  class = " fas fa-cup text-warning " > </ i > </ span >
+                            1
+                            < sup > st </ sup >
+                            Place - Đại học Colorado Boulder - Phân vùng công nghệ mới nổi 2009
+                        </ li >
+                        < li >
+                            < span  class = " fa-li " > < i  class = " fas fa-cup text-warning " > </ i > </ span >
+                            1
+                            < sup > nd </ sup >
+                            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (Hạng mục thiết kế giao diện người dùng)
+                        </ li >
+                        < li >
+                            < span  class = " fa-li " > < i  class = " fas fa-cup text-warning " > </ i > </ span >
+                            2
+                            < sup > nd </ sup >
+                            Place - University of Colorado Boulder - Cuộc thi công nghệ mới nổi 2008
+                        </ li >
+                        < li >
+                            < span  class = " fa-li " > < i  class = " fas fa-cup text-warning " > </ i > </ span >
+                            1
+                            < sup > st </ sup >
+                            Place - Trường trung học James Buchanan - Hackathon 2006
+                        </ li >
+                        < li >
+                            < span  class = " fa-li " > < i  class = " fas fa-cup text-warning " > </ i > </ span >
+                            3
+                            < sup > rd </ sup >
+                            Place - Trường trung học James Buchanan - Hackathon 2005
+                        </ li >
+                    </ ul >
+                </ div >
+            </ phần >
+            < hr  class = " m-0 " >
+        </ div >
+
+        <! - Bootstrap core JS ->
+        < script  src = " https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js " > </ script >
+        < script  src = " https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js " > </ script >
+        <! - Plugin bên thứ ba JS ->
+        < script  src = " https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js " > </ script >
+        <! - Chủ đề chính JS ->
+        < script  src = " js / scripts.js " > </ script >
+    </ body >
+</ html >
